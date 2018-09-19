@@ -14,3 +14,7 @@ Download Docker and VS Code.
 
 ## API
 No API's were harmed in the making of this.
+
+## Admin Access
+username: admin
+pw: B@con123
