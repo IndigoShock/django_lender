@@ -22,4 +22,4 @@ def __str__(self):
 
 
 def __repr__(self):
-    return f'Book: {self.title} ({self.status})'
+    return f'< Book: {self.title} | Author: {self.author} | Year: {self.year} | ISBN: {self.isbn} | Date_Added: {self.date_added} | Last_Borrowed {self.last_borrowed} | ({self.status}) >'
