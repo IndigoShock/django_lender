@@ -32,6 +32,7 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split()
 
 INSTALLED_APPS = [
     'django_lender',
+    'book_project',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
