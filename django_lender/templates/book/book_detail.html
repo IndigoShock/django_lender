@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% load date_util %}
 
 {% block content %}
 <div class="book_detail">
@@ -6,7 +7,7 @@
   <p>{{ book.status }}</p>
   <p>{{ book.author }}</p>
   <p>{{ book.year }}</p>
-  <p>{{ book.date_added }}</p>
-  <p>{{ book.last_borrowed }}</p>
+  <p>{{ book.date_added | date:"D" }}</p>
+  <p>{{ book.last_borrowed | get_date_string }}</p>
 </div>
 {% endblock %}
